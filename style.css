@@ -1,0 +1,97 @@
+* 
+{
+	margin:0;
+	padding: 0;
+}
+
+body {
+	background-image: linear-gradient(rgba(0,0,0,0,.5),rgba(0,0,0,0,.5)),url("IMG_4085.JPG");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+/*body {
+	background-image: url(IMG_7415.jpeg);
+	height: auto;
+	width: auto;
+}
+*/
+img:hover {
+	transform: scale(1.1);
+}
+
+div {
+	padding-top: 50px;
+	padding-right: 30px
+	padding-bottom:50px;
+	padding-left:80;
+	color: white;
+	border: 5px solid white;
+	margin: 0;
+}
+
+body {
+	background-color: grey;
+	background-repeat: no-repeat;
+}
+
+.main-nav
+{
+	float: left;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid orange;
+}
+
+h5 {
+
+	text-align: left;
+	letter-spacing: 2px;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 100px;
+	border: 2px solid white;
+	text-underline-position: none;
+	font-family: cooper;
+}
+
+li {
+	color: black;
+	font-family: arial black;
+
+}
